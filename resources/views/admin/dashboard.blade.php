@@ -1,4 +1,5 @@
 @extends('layout.main')
+@section('title', 'Dashboard')
 @section('content')
     <div class="page-content--bgf7">
             <!-- BREADCRUMB-->
@@ -32,7 +33,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <h1 class="title-4">Welcome Back
-                                {{-- <span>John!</span> --}}
+                                <span>Admin!</span>
                             </h1>
                             <hr class="line-seprate">
                         </div>
